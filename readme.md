@@ -11,7 +11,7 @@ This signal can be freely downlinked by an antenna, and then (frequency) demodul
 ![NOAA orbit](/data/orbit.png)
 
 ## Resampling
-After some pre-processing to remove higher frequency components and to resample the audio into an intermediate format (11025 Hz), we get an angle modulated signal at carrier frequency 2400Hz. The signal (from time 200s to 200.5s) and its discrete fourier transform are presented below:
+After some pre-processing to remove higher frequency components and to resample the audio into an intermediate format (11025 Hz), we get an amplitude modulated signal at carrier frequency 2400Hz. The signal (from time 200s to 200.5s) and its discrete fourier transform are presented below:
 
 ![time domain AM signal](/data/signal.png)
 ![dft of signal](/data/fft_signal.png)
